@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
+
+# Bloquear ficheiros ou pastas que não devem ser indexadas
+Disallow: /404.html
+Disallow: /assets/
+
+# Sitemap oficial
 Sitemap: https://jspalgarve.pt/sitemap.xml
