@@ -1,0 +1,39 @@
+
+/*
+  # Proteção contra MIME sniffing
+  X-Content-Type-Options: nosniff
+
+  # Políticas modernas — substitui X-Frame-Options (obsolete)
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Políticas de permissões — bloqueia APIs do browser
+  Permissions-Policy: 
+    geolocation=(), 
+    microphone=(), 
+    camera=(), 
+    fullscreen=(self), 
+    payment=()
+
+  # Cache
+  Cache-Control: public, max-age=3600
+
+  # CSP reforçada (versão compatível com Microsoft Forms)
+  Content-Security-Policy:
+    default-src 'self';
+    base-uri 'self';
+    font-src 'self' data:;
+    img-src 'self' data:;
+    style-src 'self' 'unsafe-inline';
+    script-src 'self';
+    connect-src 'self';
+    frame-src 
+      https://forms.office.com 
+      https://forms.microsoft.com 
+      https://forms.cloud.microsoft;
+    frame-ancestors 'self';
+    object-src 'none';
+<<<<<<< HEAD
+    form-action 'self';
+=======
+    form-action 'self';
+>>>>>>> 25482c0bf2e2eed807eb9119552962ad5d19946c
