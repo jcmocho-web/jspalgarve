@@ -1,0 +1,6 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), fullscreen=(self), payment=()
+  Cache-Control: public, max-age=3600
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; font-src 'self' data:; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-src https://forms.office.com https://forms.microsoft.com https://forms.cloud.microsoft; frame-ancestors 'self'; object-src 'none'; form-action 'self';
