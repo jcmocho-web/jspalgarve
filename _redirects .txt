@@ -1,5 +1,0 @@
-/index.php             /   301!
-/*.php                 /   301!
-/sitemap_index.xml     /sitemap.xml   301!
-/page-sitemap.xml      /sitemap.xml   301!
-www.jspalgarve.pt/*    https://jspalgarve.pt/:splat   301!
