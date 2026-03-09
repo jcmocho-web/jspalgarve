@@ -1,6 +1,6 @@
 
 /* JSP Algarve — v5 (replica visual + fundo em todas as páginas) */
-:root{ --brand:#1d4ed8; --brand-600:#2563eb; --bg:#0b1220; --text:#e5e7eb; --muted:#cbd5e1; --panel:#0e1527AA; --border:#1f2937 }
+:root{ --brand:#1d4ed8; --brand-600:#2563eb; --bg:#0b1220; --text:#e5e7eb; --muted:#cbd5e1; --panel:#0e0e1527DD; --border:#1f2937 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;color:var(--text);position:relative}
